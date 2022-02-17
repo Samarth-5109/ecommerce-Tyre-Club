@@ -1,113 +1,109 @@
 @import url("./main.css");
 
-.products-nav{
-    display: flex;
-    justify-content: space-around;
+.products-nav {
+  display: flex;
+  justify-content: space-around;
 }
 
-.product{
-    font-weight: bold;
-    padding: 10px;
+.product {
+  font-weight: bold;
+  padding: 10px;
 }
 
-.product:hover{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+.product:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
-.section-b{
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/984/693/125/wheel-tires-wheels-company-wallpaper-preview.jpg");
-    height:70vh;
-    background-size:cover;
-    background-position:center;
-    margin-top: 1rem;
+.section-b {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/984/693/125/wheel-tires-wheels-company-wallpaper-preview.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1rem;
 }
 
-.intro{
-    color:var(--secondary-color);
-    padding-top: 2rem;
-    padding-left:6rem;
+.intro {
+  color: var(--secondary-color);
+  padding-top: 2rem;
+  padding-left: 6rem;
 }
 
-.main-title{
-    margin-bottom:2rem;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    font-weight: bold;
+.main-title {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.usp-points{
-    padding-bottom: 2rem;
-    font-weight: bold;
+.usp-points {
+  padding-bottom: 2rem;
+  font-weight: bold;
 }
 
-.bullet-icon{
-    color:#4E9F3D;
-    margin-right: 10px;
+.bullet-icon {
+  color: #4e9f3d;
+  margin-right: 10px;
 }
 
-.title-brand{
-    text-transform: capitalize;
+.title-brand {
+  text-transform: capitalize;
 }
-.brands{
-    height: 60vh;
-    /* background-color: var(--primary-color); */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.details{
-    /* margin-top: 2rem; */
-}
-.about-brand{
-    /* background-color: aqua; */
-    width:55rem;
+.brands {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.brand-names{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.brand-logos{
-    width:100px;
-    margin-right: 1rem;
+.about-brand {
+  width: 55rem;
 }
 
-.how-it-works{
-    text-align: center;
-    background-color: var(--secondary-color);
-    padding:2rem;
+.brand-names {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.works-heading{
-    text-transform: uppercase;
-}
-.tyre-icon{
-    font-size:1.5rem;
-    color: var(--primary-color);
-    margin-bottom: 10px;
+.brand-logos {
+  width: 100px;
+  margin-right: 1rem;
 }
 
-.first-step, .second-step{
-    margin:1rem;
+.how-it-works {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 2rem;
+}
+.works-heading {
+  text-transform: uppercase;
+}
+.tyre-icon {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
 }
 
-.footer{
-    text-align: center;
-    padding: 2rem;
-    background-color: var(--primary-color);
+.first-step,
+.second-step {
+  margin: 1rem;
 }
 
-.ecom{
-    color: var(--secondary-color);
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--primary-color);
 }
 
-.pay-icon, .payments{
-    color:var(--secondary-color);
-    padding: 10px;
-    font-size: 1.5rem;
+.ecom {
+  color: var(--secondary-color);
+}
 
+.pay-icon,
+.payments {
+  color: var(--secondary-color);
+  padding: 10px;
+  font-size: 1.5rem;
 }
