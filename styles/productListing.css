@@ -1,0 +1,95 @@
+@import url("../styles/main.css");
+
+.listing-container {
+  display: flex;
+}
+.sidebar {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 13rem;
+}
+.about-sidebar {
+  margin-bottom: 2.5rem;
+}
+
+.main-title {
+  margin-bottom: 10px;
+}
+
+.filters {
+  margin-bottom: 2rem;
+}
+
+.basic-card {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  margin: 1rem;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 20px 20px 50px grey;
+  border-radius: 5px;
+}
+.card-title {
+  padding: 10px;
+}
+
+.title {
+  color: #323232;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.content {
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.price-container {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.price {
+  color: red;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.action-btn {
+  padding: 8px;
+  background-color: var(--primary-color);
+  border: 0 solid transparent;
+  color: var(--secondary-color);
+  border-radius: 5px;
+}
+
+.card-icons {
+  padding: 8px;
+}
+
+.action-btn:hover,
+.card-icons:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.brand-logos {
+  width: 80px;
+}
+
+.tax {
+  font-size: 10px;
+}
+
+.product-cards {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
