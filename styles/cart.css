@@ -1,7 +1,6 @@
 @import url("../styles/main.css");
 .cart-management {
   display: flex;
-  /* margin-top: 3rem; */
 }
 .head-title {
   text-align: center;
@@ -47,7 +46,7 @@
 .model {
   margin-bottom: 10px;
 }
-/* ss */
+
 .price-details-container {
   width: 25rem;
   padding: 3rem;
