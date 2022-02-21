@@ -1,3 +1,4 @@
+
 :root {
   --primary-color: #325288;
   --secondary-color: whitesmoke;
@@ -34,12 +35,14 @@ a {
   align-items: center;
   margin-left: 2rem;
   padding: 1rem;
+
 }
 
 /* .brand_image{
     width: 3.5rem;
     height: 3.5rem;
 } */
+
 
 .brand-logo {
   font-size: 3rem;
@@ -93,4 +96,5 @@ a {
 .nfn-cart {
   /* left:11rem; */
   bottom: 0.7rem;
+
 }
