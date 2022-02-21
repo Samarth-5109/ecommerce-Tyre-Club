@@ -1,7 +1,5 @@
 
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&family=Shippori+Antique&display=swap");
-
 
 :root {
   --primary-color: #325288;
@@ -102,6 +100,37 @@ a {
   /* left:11rem; */
   bottom: 0.7rem;
 
+}
+
+.products-nav {
+  display: flex;
+  justify-content: space-around;
+}
+.product {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.product:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--primary-color);
+}
+
+.ecom {
+  color: var(--secondary-color);
+}
+
+.pay-icon,
+.payments {
+  color: var(--secondary-color);
+  padding: 10px;
+  font-size: 1.5rem;
 }
 
 .products-nav {
