@@ -3,6 +3,10 @@
 .listing-container {
   display: flex;
 }
+
+.clear {
+  margin-left: 2rem;
+}
 .sidebar {
   margin-top: 2rem;
   margin-left: 2rem;
