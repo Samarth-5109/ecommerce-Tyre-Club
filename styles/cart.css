@@ -1,0 +1,69 @@
+@import url("../styles/main.css");
+.cart-management {
+  display: flex;
+}
+.head-title {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.2rem;
+}
+.cart-items {
+  margin-left: 10rem;
+}
+.vertical-card {
+  display: flex;
+  width: 28rem;
+  margin: 2rem;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 10px 10px 30px grey;
+  position: relative;
+}
+.product-image {
+  width: 10rem;
+}
+.product-details {
+  padding: 1rem;
+}
+.brand-logo {
+  width: 4rem;
+}
+.model {
+  font-weight: bold;
+}
+.quantity {
+  width: 3rem;
+}
+
+.btn {
+  padding: 5px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: transparent;
+}
+
+.product-title,
+.product-quantity,
+.model {
+  margin-bottom: 10px;
+}
+
+.price-details-container {
+  width: 25rem;
+  padding: 3rem;
+  margin-left: 10rem;
+}
+
+.price-view-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.btn-placeorder {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: transparent;
+}
