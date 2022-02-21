@@ -1,0 +1,67 @@
+@import url("./main.css");
+
+.login {
+  width: 30rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.head-title {
+  text-align: center;
+  color: var(--font-primary-color);
+}
+
+.form-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  width: 30rem;
+}
+
+.login-input {
+  display: block;
+  border: none;
+  border-bottom: 2px solid var(--primary-color);
+  background-color: transparent;
+  padding: 10px;
+  margin-bottom: 1rem;
+  width: 25rem;
+}
+
+.login-input:focus {
+  outline: none;
+}
+.sign-up-link {
+  color: #86c6f4;
+  font-weight: bold;
+}
+
+.options {
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #86c6f4;
+  font-weight: bold;
+  display: block;
+}
+
+.option2 {
+  color: var(--font-primary-color);
+}
+
+.btn {
+  background-color: var(--primary-color);
+  padding: 12px;
+  border-radius: 5px;
+  border: transparent;
+  margin-bottom: 1rem;
+}
+
+.btn-container {
+  text-align: center;
+}
+.btn-login {
+  color: var(--secondary-color);
+}
